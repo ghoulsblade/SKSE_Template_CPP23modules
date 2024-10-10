@@ -1,4 +1,5 @@
 #include <Dragon.h>
+import myplugin;
 
 namespace MyPlugin {
     SKSEPluginLoad(const SKSE::LoadInterface* skse) {
@@ -11,7 +12,7 @@ namespace MyPlugin {
                 if (message->type == SKSE::MessagingInterface::kDataLoaded)
                     Dragon("Akatosh").PrintName();
             });
-
-        return true;
+            
+        return MyInitializePlugin(skse);
     }
 }
