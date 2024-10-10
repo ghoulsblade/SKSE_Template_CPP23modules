@@ -1,8 +1,8 @@
 > 📜 other templates available at https://github.com/SkyrimScripting/SKSE_Templates
 
-# SKSE plugin using .cpp and .h files
+# SKSE plugin using .cpp .ixx and .h files
 
-Very simple C++ SKSE plugin for Skyrim!
+Very simple C++ SKSE plugin with c++23 modules for Skyrim!
 
 ---
 
